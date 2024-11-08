@@ -6,7 +6,7 @@ COPY . /app
 
 COPY requirements.txt /app/
 
-RUN pip install --no-cache-dir -r requirments.txt
+RUN pip install --no-cache-dir -r requirment.txt
 
 EXPOSE 5000
 
